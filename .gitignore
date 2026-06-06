@@ -1,0 +1,24 @@
+target/
+Cargo.lock.bak
+*.swp
+*.swo
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Local dev artifacts
+/tmp-vms/
+/work/
+*.vmstate
+
+# Private working notes — paper drafts, bench scratch, internal memos.
+# Backed up out-of-band (e.g., iCloud / Dropbox / private notes repo),
+# not in this public repo.
+/notes/
+Cargo.lock
